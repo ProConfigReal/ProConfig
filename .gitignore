@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+.gradle/
+app/build/
+local.properties
+
+# Keystore (never commit signing material)
+keystore/
+
+# Native build intermediates
+exec_helper/obj/
+exec_helper/libs/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English (default) -->
+    <string name="app_name" translatable="false">ProConfig</string>
+
+    <!-- Common -->
+    <string name="nav_home">Home</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="share_via">Share via</string>
+    <string name="toast_selected">Profile selected</string>
+    <string name="toast_copied">Copied to clipboard</string>
+    <string name="toast_error">Something went wrong</string>
+    <string name="toast_saved">Saved</string>
+    <string name="toast_invalid_core">Invalid values. Port: 1024–65535, MTU: 1200–1500</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">Connection status</string>
+    <string name="notif_connected">Connection active</string>
+
+    <!-- Home / Panel -->
+    <string name="state_connected">Connected</string>
+    <string name="state_connecting">Connecting…</string>
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_disconnecting">Disconnecting…</string>
+    <string name="home_connected_hint">Traffic is routed through your selected profile</string>
+    <string name="home_connecting_hint">Establishing the connection…</string>
+    <string name="home_disconnected_hint">Tap the button to start the connection</string>
+    <string name="home_no_selection">No profile selected</string>
+    <string name="home_pick_hint">Tap here to choose a profile</string>
+    <string name="download_speed">Download</string>
+    <string name="upload_speed">Upload</string>
+    <string name="total_down">Total ↓</string>
+    <string name="total_up">Total ↑</string>
+    <string name="session_time">Session</string>
+    <string name="panel_subtitle">Network Panel</string>
+    <string name="current_profile">Current profile</string>
+
+    <!-- Configs -->
+    <string name="configs_title">Profiles</string>
+    <string name="search_hint">Search profiles…</string>
+    <string name="test_all">Test all</string>
+    <string name="latency_untested">Not tested</string>
+    <string name="latency_timeout">Timeout</string>
+    <string name="menu_test">Test latency</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_share">Share link</string>
+    <string name="menu_copy">Copy link</string>
+    <string name="menu_delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="edit_title">Edit profile</string>
+    <string name="add_title">New profile</string>
+    <string name="empty_configs">No profiles yet. Add one or import a subscription.</string>
+    <string name="empty_subs">No subscriptions yet. Add one to import profiles.</string>
+
+    <!-- Profile editor -->
+    <string name="label_name">Name</string>
+    <string name="label_proto">Protocol</string>
+    <string name="label_address">Server address</string>
+    <string name="label_port">Port</string>
+    <string name="label_secret">UUID / Password</string>
+    <string name="label_security">Security</string>
+    <string name="label_network">Transport</string>
+    <string name="label_sni">SNI / Peer name</string>
+    <string name="label_host">Host header</string>
+    <string name="label_path">Path / Service name</string>
+    <string name="label_flow">Flow</string>
+    <string name="label_fingerprint">TLS fingerprint</string>
+    <string name="label_public_key">Reality public key</string>
+    <string name="label_short_id">Reality short ID</string>
+    <string name="label_insecure">Skip certificate verification</string>
+    <string name="error_required">Please fill in the required fields</string>
+
+    <!-- Subscriptions -->
+    <string name="subs_title">Subscriptions</string>
+    <string name="sub_add_title">Add subscription</string>
+    <string name="sub_url_hint">Subscription URL</string>
+    <string name="sub_count_fmt">%d profiles</string>
+    <string name="sub_never_updated">Never updated</string>
+    <string name="sub_updated_fmt">%d profiles imported</string>
+    <string name="sub_update_failed">Update failed: %s</string>
+    <string name="sub_delete_title">Delete subscription</string>
+    <string name="sub_delete_msg">Delete "%s" and all of its profiles?</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_core">Connection engine</string>
+    <string name="socks_port">Local port (SOCKS)</string>
+    <string name="mtu">MTU</string>
+    <string name="apply">Apply</string>
+    <string name="settings_interface">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="language">Language</string>
+    <string name="settings_general">General</string>
+    <string name="auto_connect">Connect on app start</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="lang_system">System</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_version_fmt">Version %s</string>
+    <string name="about_tagline">A clean and simple panel for managing your network profiles.</string>
+    <string name="about_desc">ProConfig lets you organize, test and switch between your own server profiles — all stored locally on your device. Import profiles by link, group them with subscriptions, and monitor live connection speed from one simple panel.</string>
+    <string name="about_note">ProConfig does not provide connectivity services and does not include any pre-configured profiles. Please use the app responsibly and in accordance with the rules of your network provider.</string>
+    <string name="github">GitHub project</string>
+    <string name="telegram_channel">Telegram channel</string>
+</resources>

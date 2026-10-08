@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- فارسی -->
+    <string name="nav_home">خانه</string>
+    <string name="save">ذخیره</string>
+    <string name="cancel">انصراف</string>
+    <string name="delete">حذف</string>
+    <string name="disconnect">قطع اتصال</string>
+    <string name="share_via">اشتراک‌گذاری از طریق</string>
+    <string name="toast_selected">پروفایل انتخاب شد</string>
+    <string name="toast_copied">در کلیپ‌بورد کپی شد</string>
+    <string name="toast_error">خطایی رخ داد</string>
+    <string name="toast_saved">ذخیره شد</string>
+    <string name="toast_invalid_core">مقادیر نامعتبر است. پورت: 1024 تا 65535 و MTU: 1200 تا 1500</string>
+
+    <string name="notif_channel">وضعیت اتصال</string>
+    <string name="notif_connected">اتصال فعال است</string>
+
+    <string name="state_connected">متصل</string>
+    <string name="state_connecting">در حال اتصال…</string>
+    <string name="state_disconnected">قطع شده</string>
+    <string name="state_disconnecting">در حال قطع…</string>
+    <string name="home_connected_hint">ترافیک از طریق پروفایل انتخابی شما عبور می‌کند</string>
+    <string name="home_connecting_hint">در حال برقراری اتصال…</string>
+    <string name="home_disconnected_hint">برای شروع اتصال دکمه را بزنید</string>
+    <string name="home_no_selection">هیچ پروفایلی انتخاب نشده</string>
+    <string name="home_pick_hint">برای انتخاب پروفایل اینجا را بزنید</string>
+    <string name="download_speed">دانلود</string>
+    <string name="upload_speed">آپلود</string>
+    <string name="total_down">مجموع ↓</string>
+    <string name="total_up">مجموع ↑</string>
+    <string name="session_time">زمان جلسه</string>
+    <string name="panel_subtitle">پنل شبکه</string>
+    <string name="current_profile">پروفایل فعلی</string>
+
+    <string name="configs_title">پروفایل‌ها</string>
+    <string name="search_hint">جستجوی پروفایل‌ها…</string>
+    <string name="test_all">تست همه</string>
+    <string name="latency_untested">تست نشده</string>
+    <string name="latency_timeout">ناپدید</string>
+    <string name="menu_test">تست تأخیر</string>
+    <string name="menu_edit">ویرایش</string>
+    <string name="menu_share">اشتراک لینک</string>
+    <string name="menu_copy">کپی لینک</string>
+    <string name="menu_delete">حذف</string>
+    <string name="update">به‌روزرسانی</string>
+    <string name="edit_title">ویرایش پروفایل</string>
+    <string name="add_title">پروفایل جدید</string>
+    <string name="empty_configs">هنوز پروفایلی نیست. یکی اضافه کنید یا اشتراک وارد کنید.</string>
+    <string name="empty_subs">هنوز اشتراکی نیست. برای واردکردن پروفایل یکی اضافه کنید.</string>
+
+    <string name="label_name">نام</string>
+    <string name="label_proto">پروتکل</string>
+    <string name="label_address">آدرس سرور</string>
+    <string name="label_port">پورت</string>
+    <string name="label_secret">UUID / رمز</string>
+    <string name="label_security">امنیت</string>
+    <string name="label_network">ترنسپورت</string>
+    <string name="label_sni">SNI / نام سرور</string>
+    <string name="label_host">هاست</string>
+    <string name="label_path">مسیر / نام سرویس</string>
+    <string name="label_flow">Flow</string>
+    <string name="label_fingerprint">اثرانگشت TLS</string>
+    <string name="label_public_key">کلید عمومی Reality</string>
+    <string name="label_short_id">شناسه کوتاه Reality</string>
+    <string name="label_insecure">بررسی گواهی نادیده گرفته شود</string>
+    <string name="error_required">فیلدهای الزامی را تکمیل کنید</string>
+
+    <string name="subs_title">اشتراک‌ها</string>
+    <string name="sub_add_title">افزودن اشتراک</string>
+    <string name="sub_url_hint">لینک اشتراک</string>
+    <string name="sub_count_fmt">%d پروفایل</string>
+    <string name="sub_never_updated">هرگز به‌روزرسانی نشده</string>
+    <string name="sub_updated_fmt">%d پروفایل وارد شد</string>
+    <string name="sub_update_failed">به‌روزرسانی ناموفق: %s</string>
+    <string name="sub_delete_title">حذف اشتراک</string>
+    <string name="sub_delete_msg">«%s» و همه پروفایل‌هایش حذف شود؟</string>
+
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_core">موتور اتصال</string>
+    <string name="socks_port">پورت محلی (SOCKS)</string>
+    <string name="mtu">MTU</string>
+    <string name="apply">اعمال</string>
+    <string name="settings_interface">ظاهر</string>
+    <string name="theme">تم</string>
+    <string name="language">زبان</string>
+    <string name="settings_general">عمومی</string>
+    <string name="auto_connect">اتصال خودکار هنگام اجرا</string>
+    <string name="theme_system">سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تیره</string>
+    <string name="lang_system">سیستم</string>
+
+    <string name="about_title">درباره</string>
+    <string name="about_version_fmt">نسخه %s</string>
+    <string name="about_tagline">پنلی ساده و تمیز برای مدیریت پروفایل‌های شبکه شما.</string>
+    <string name="about_desc">ProConfig به شما کمک می‌کند پروفایل‌های سرور خودتان را سازمان‌دهی، تست و جابه‌جا کنید — همه‌چیز فقط روی دستگاه شما ذخیره می‌شود. واردکردن پروفایل با لینک، گروه‌بندی با اشتراک و مشاهده سرعت لحظه‌ای اتصال، همه در یک پنل ساده.</string>
+    <string name="about_note">ProConfig هیچ سرویس اتصالی ارائه نمی‌دهد و هیچ پروفایل آماده‌ای ندارد. لطفاً از برنامه به‌صورت مسئولانه و مطابق قوانین سرویس‌دهنده شبکه خود استفاده کنید.</string>
+    <string name="github">پروژه گیتهاب</string>
+    <string name="telegram_channel">کانال تلگرام</string>
+</resources>

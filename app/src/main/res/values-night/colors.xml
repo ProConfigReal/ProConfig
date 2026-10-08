@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme: pure black + purple -->
+    <color name="background">#000000</color>
+    <color name="surface_glass">#14111C</color>
+    <color name="surface_glass_strong">#1C1727</color>
+    <color name="glass_stroke">#2FFFFFFF</color>
+    <color name="glass_tint_top">#268B5CF6</color>
+    <color name="glass_tint_bottom">#0D8B5CF6</color>
+    <color name="hero_tint_top">#408B5CF6</color>
+    <color name="hero_tint_bottom">#147C3AED</color>
+
+    <color name="primary">#A78BFA</color>
+    <color name="primary_bright">#8B5CF6</color>
+    <color name="on_primary">#120E1A</color>
+    <color name="primary_container">#2E1065</color>
+    <color name="on_primary_container">#E9E2FB</color>
+    <color name="glow">#4D8B5CF6</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B4ADC6</color>
+    <color name="text_hint">#6E6780</color>
+
+    <color name="nav_bg">#0B0912</color>
+    <color name="input_bg">#14111C</color>
+    <color name="input_stroke">#26FFFFFF</color>
+    <color name="chip_bg">#241C36</color>
+
+    <color name="connect_glow">#598B5CF6</color>
+    <color name="connect_grad_top">#A78BFA</color>
+    <color name="connect_grad_bottom">#6D28D9</color>
+
+    <!-- status -->
+    <color name="dot_connected">#A78BFA</color>
+    <color name="dot_connecting">#7C3AED</color>
+    <color name="dot_disconnected">#4A4453</color>
+    <color name="status_connected">#A78BFA</color>
+    <color name="status_connecting">#8B5CF6</color>
+    <color name="status_disconnected">#8B8497</color>
+
+    <!-- latency (functional) -->
+    <color name="latency_good">#4ADE80</color>
+    <color name="latency_mid">#FBBF24</color>
+    <color name="latency_bad">#F87171</color>
+</resources>

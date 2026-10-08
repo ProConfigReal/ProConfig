@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/configs_title"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnTestAll"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_chip"
+        android:contentDescription="@string/test_all"
+        android:src="@drawable/ic_refresh"
+        app:tint="@color/primary"
+        app:layout_constraintEnd_toStartOf="@id/btnAdd"
+        app:layout_constraintTop_toTopOf="@id/tvTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvTitle" />
+
+    <ImageButton
+        android:id="@+id/btnAdd"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_chip"
+        android:contentDescription="@string/add_title"
+        android:src="@drawable/ic_add"
+        app:tint="@color/primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvTitle" />
+
+    <ProgressBar
+        android:id="@+id/progressTest"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@id/tvTitle"
+        app:layout_constraintTop_toTopOf="@id/tvTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvTitle" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_input"
+        android:hint="@string/search_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvEmpty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/empty_configs"
+                android:textColor="@color/text_hint"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
